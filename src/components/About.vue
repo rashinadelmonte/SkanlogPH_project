@@ -17,61 +17,10 @@
 
 </script>
 <template>
-   <!--    <div id="about" class="about-area area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>About Skanlog</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-left">
-              <div class="single-well">
-                <a href="#">
-                  <img :src="about1" alt="">
-                  <div  class="rte" v-html="form.content"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        
-          <div class="col-md-6 col-sm-6 col-xs-12">
-            <div class="well-middle">
-              <div class="single-well">
-                <a href="#">
-                  <h4 class="sec-head"></h4>
-                </a>
-                <p>
-                  Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure
-                </p>
-                <ul>
-                  <li>
-                    <i class="bi bi-check"></i> Interior design Package
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> Building House
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> Reparing of Residentail Roof
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> Renovaion of Commercial Office
-                  </li>
-                  <li>
-                    <i class="bi bi-check"></i> Make Quality Products
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
     
-   <div class="content">
+   <div class="bg-light my-custom-bg rounded p-4 col-xl-10 col-lg-10 mx-auto content"
+      data-aos="zoom-in" data-aos-delay="50"
+   >
       <div v-html="getHistory.content"></div>
     </div>
       
@@ -82,4 +31,10 @@
     display: flex;
     margin-top: 5rem;
   }
+  .my-custom-bg {
+  background-color: #b9601c;
+  border: 1px solid #38085f;
+}
+
+  
 </style>
